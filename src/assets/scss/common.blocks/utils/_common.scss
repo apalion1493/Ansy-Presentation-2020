@@ -1,0 +1,1044 @@
+html, body {
+  * {
+    font-family: 'Proxima Nova', sans-serif !important;
+  }
+
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.main-logo {
+  background: url("../img/header-logo.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 142px;
+  height: 57px;
+  display: block;
+}
+
+.icon-telegram {
+  background: url("../img/telegram-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.icon-viber {
+  background: url("../img/viber-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.calendar-icon {
+  background: url("../img/calendar-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 15px;
+  height: 15px;
+  display: block;
+}
+
+.icon-facebook {
+  background: url("../img/facebook-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.icon-instagram {
+  background: url("../img/instagram-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.icon-tripadvisor {
+  background: url("../img/tripadvisor-logotype-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.icon-vk {
+  background: url("../img/vk-social-logotype-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.icon-youtube {
+  background: url("../img/youtube-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.icon-telegram-color {
+  background: url("../img/new-vector-icon/Telegram-color-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 22px;
+  height: 18px;
+  display: block;
+}
+
+.icon-viber-color {
+  background: url("../img/new-vector-icon/Viber-color-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 18px;
+  height: 20px;
+  display: block;
+}
+
+.icon-whatsapp-color {
+  background: url("../img/new-vector-icon/Whatsapp-color-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.icon-instagram-color {
+  background: url("../img/new-vector-icon/instagram-icon-color.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
+.icon-vk-color {
+  background: url("../img/new-vector-icon/vk-icon-color.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 26px;
+  height: 26px;
+  display: block;
+}
+
+.main {
+  position: relative;
+}
+
+.btn-orange {
+  min-height: 55px;
+  box-shadow: 0 10px 15px rgba(216, 58, 58, 0.3);
+  font-size: 1rem;
+}
+
+.human-icon {
+  background: url("../img/human-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 24px;
+  height: 30px;
+  display: block;
+}
+
+.gopro-icon {
+  background: url("../img/gopro-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.card-icon {
+  background: url("../img/card-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 32px;
+  height: 23px;
+  display: block;
+}
+
+.coupon-icon {
+  background: url("../img/coupon-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 38px;
+  height: 37px;
+  display: block;
+}
+
+.background-icon-1 {
+  background: url("../img/background/background-icon-1.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 55px;
+  height: 75px;
+  display: block;
+}
+
+.background-icon-2 {
+  background: url("../img/background/background-icon-2.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 55px;
+  height: 75px;
+  display: block;
+}
+
+.background-icon-3 {
+  background: url("../img/background/background-icon-3.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 65px;
+  height: 65px;
+  display: block;
+}
+
+.background-icon-4 {
+  background: url("../img/background/background-icon-4.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 55px;
+  height: 55px;
+  display: block;
+}
+
+.background-icon-5 {
+  background: url("../img/background/background-icon-5.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 61px;
+  height: 45px;
+  display: block;
+}
+
+.background-icon-6 {
+  background: url("../img/background/background-icon-6.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 45px;
+  height: 61px;
+  display: block;
+}
+
+.background-icon-7 {
+  background: url("../img/background/background-icon-7.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 95px;
+  height: 95px;
+  display: block;
+}
+
+.background-icon-8 {
+  background: url("../img/background/background-icon-8.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+
+.background-icon-9 {
+  background: url("../img/background/background-icon-9.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 74px;
+  height: 74px;
+  display: block;
+}
+
+.background-icon-10 {
+  background: url("../img/background/background-icon-10.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 28px;
+  display: block;
+}
+
+.background-icon-11 {
+  background: url("../img/background/background-icon-11.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 31px;
+  height: 31px;
+  display: block;
+}
+
+.background-icon-12 {
+  background: url("../img/background/background-icon-12.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 22px;
+  height: 30px;
+  display: block;
+}
+
+.background-icon-13 {
+  background: url("../img/background/background-icon-13.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 48px;
+  height: 48px;
+  display: block;
+}
+
+.background-icon-14 {
+  background: url("../img/background/background-icon-14.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 83px;
+  height: 83px;
+  display: block;
+}
+
+.background-icon-15 {
+  background: url("../img/background/background-icon-15.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 34px;
+  height: 46px;
+  display: block;
+}
+
+.background-icon-16 {
+  background: url("../img/background/background-icon-16.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 35px;
+  height: 35px;
+  display: block;
+}
+
+.background-icon-17 {
+  background: url("../img/background/background-icon-17.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 43px;
+  height: 31px;
+  display: block;
+}
+
+.background-icon-18 {
+  background: url("../img/background/background-icon-18.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 39px;
+  height: 54px;
+  display: block;
+}
+
+.background-icon-19 {
+  background: url("../img/background/background-icon-19.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 31px;
+  height: 43px;
+  display: block;
+}
+
+.background-icon-20 {
+  background: url("../img/background/background-icon-20.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 63px;
+  height: 86px;
+  display: block;
+}
+
+.background-icon-21 {
+  background: url("../img/background/background-icon-21.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 73px;
+  height: 54px;
+  display: block;
+}
+
+.background-icon-22 {
+  background: url("../img/background/background-icon-22.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 23px;
+  height: 23px;
+  display: block;
+}
+
+.background-icon-23 {
+  background: url("../img/background/background-icon-23.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 31px;
+  height: 31px;
+  display: block;
+}
+
+.background-icon-24 {
+  background: url("../img/background/background-icon-24.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.background-icon-25 {
+  background: url("../img/background/background-icon-25.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 45px;
+  height: 45px;
+  display: block;
+}
+
+.background-icon-26 {
+  background: url("../img/background/background-icon-26.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 27px;
+  height: 27px;
+  display: block;
+}
+
+.background-icon-27 {
+  background: url("../img/background/background-icon-27.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 47px;
+  height: 47px;
+  display: block;
+}
+
+.background-icon-28 {
+  background: url("../img/background/background-icon-28.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 31px;
+  height: 31px;
+  display: block;
+}
+
+.background-icon-29 {
+  background: url("../img/background/background-icon-29.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.background-icon-30 {
+  background: url("../img/background/background-icon-30.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 39px;
+  height: 39px;
+  display: block;
+}
+
+.background-icon-31 {
+  background: url("../img/background/background-icon-31.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 49px;
+  height: 49px;
+  display: block;
+}
+
+.background-icon-32 {
+  background: url("../img/background/background-icon-32.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 44px;
+  height: 61px;
+  display: block;
+}
+
+.background-icon-33 {
+  background: url("../img/background/background-icon-33.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 42px;
+  height: 58px;
+  display: block;
+}
+
+.background-icon-34 {
+  background: url("../img/background/background-icon-34.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 32px;
+  height: 44px;
+  display: block;
+}
+
+.background-icon-35 {
+  background: url("../img/background/background-icon-35.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 44px;
+  height: 32px;
+  display: block;
+}
+
+.background-icon-36 {
+  background: url("../img/background/background-icon-36.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 39px;
+  height: 29px;
+  display: block;
+}
+
+.background-icon-37 {
+  background: url("../img/background/background-icon-37.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 74px;
+  height: 74px;
+  display: block;
+}
+
+.background-icon-38 {
+  background: url("../img/background/background-icon-38.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.background-icon-39 {
+  background: url("../img/background/background-icon-39.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 28px;
+  display: block;
+}
+
+.background-icon-40 {
+  background: url("../img/background/background-icon-40.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 55px;
+  height: 76px;
+  display: block;
+}
+
+.background-icon-41 {
+  background: url("../img/background/background-icon-41.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 34px;
+  height: 47px;
+  display: block;
+}
+
+.background-icon-42 {
+  background: url("../img/background/background-icon-42.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 21px;
+  height: 29px;
+  display: block;
+}
+
+.background-icon-43 {
+  background: url("../img/background/background-icon-43.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 41px;
+  height: 41px;
+  display: block;
+}
+
+.background-icon-44 {
+  background: url("../img/background/background-icon-44.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.background-icon-45 {
+  background: url("../img/background/background-icon-45.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 31px;
+  height: 31px;
+  display: block;
+}
+
+.background-icon-46 {
+  background: url("../img/background/background-icon-46.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 34px;
+  height: 49px;
+  display: block;
+}
+
+.background-icon-47 {
+  background: url("../img/background/background-icon-47.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 43px;
+  height: 32px;
+  display: block;
+}
+
+.background-icon-48 {
+  background: url("../img/background/background-icon-48.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 58px;
+  height: 58px;
+  display: block;
+}
+
+.background-icon-49 {
+  background: url("../img/background/background-icon-49.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 53px;
+  height: 73px;
+  display: block;
+}
+
+.background-icon-50 {
+  background: url("../img/background/background-icon-50.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 84px;
+  height: 84px;
+  display: block;
+}
+
+.background-icon-51 {
+  background: url("../img/background/background-icon-51.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 39px;
+  height: 54px;
+  display: block;
+}
+
+.background-icon-52 {
+  background: url("../img/background/background-icon-52.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 28px;
+  display: block;
+}
+
+.background-icon-53 {
+  background: url("../img/background/background-icon-53.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 49px;
+  height: 36px;
+  display: block;
+}
+
+.background-icon-54 {
+  background: url("../img/background/background-icon-54.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 28px;
+  height: 39px;
+  display: block;
+}
+
+.icon-marker {
+  background: url("../img/new-vector-icon/marker-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 26px;
+  height: 34px;
+  display: block;
+}
+
+.button-minus,
+.button-plus {
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #555555;
+
+  background: #FFFFFF;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  overflow: hidden;
+  border: none;
+  width: 33px;
+  height: 33px;
+}
+
+.btn-outline-secondary {
+  color: #333333;
+  background: #FFFFFF;
+}
+
+.button-number-certificate {
+  height: 37px;
+  max-width: 231px;
+  font-size: 14px;
+}
+
+.videoBtn {
+  width: 90px;
+  height: 90px;
+  display: block;
+  background: url("../img/videoBtn.svg") no-repeat center;
+  background-size: 100% auto;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.videoBtn_tandem-first-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transition: 0.3s;
+  opacity: 1;
+  background: initial;
+
+  .videoBtn__bg {
+    position: absolute;
+    background: rgba(255, 255, 255, .69);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: videoBtn 3s infinite linear;
+  }
+
+  span {
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+  }
+
+  i {
+    background: url("../img/new-vector-icon/play-icon.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 48px;
+    height: 48px;
+    display: block;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+  }
+
+  &:hover {
+    background: #fff;
+    transition: 0.3s;
+  }
+}
+
+.inst-svg-icon {
+  background: url("../img/vector-icon/gopro-svg-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.boy-icon-1 {
+  background: url("../img/new-vector-icon/boy-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 42px;
+  height: 62px;
+  display: block;
+}
+
+.boy-icon-2 {
+  background: url("../img/new-vector-icon/boy-icon-2.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 66px;
+  height: 62px;
+  display: block;
+}
+
+.nerd-icon {
+  background: url("../img/new-vector-icon/nerd-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 65px;
+  height: 65px;
+  display: block;
+}
+
+.man-icon {
+  background: url("../img/new-vector-icon/man-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 46px;
+  height: 65px;
+  display: block;
+}
+
+.calendar-icon-3 {
+  background: url("../img/new-vector-icon/calendar-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 48px;
+  height: 49px;
+  display: block;
+}
+
+.laptop-icon {
+  background: url("../img/new-vector-icon/laptop-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 56px;
+  height: 56px;
+  display: block;
+}
+
+.available-icon {
+  background: url("../img/new-vector-icon/available-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 46px;
+  height: 46px;
+  display: block;
+}
+
+.teenager-icon {
+  background: url("../img/new-vector-icon/teenager-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 46px;
+  height: 46px;
+  display: block;
+}
+
+.wind-tunnel-icon {
+  background: url("../img/new-vector-icon/wind-tunnel-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 80px;
+  height: 85px;
+  display: block;
+}
+
+.helmet-icon {
+  background: url("../img/new-vector-icon/helmet-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 82px;
+  height: 85px;
+  display: block;
+}
+
+.location-icon {
+  background: url("../img/new-vector-icon/location-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 84px;
+  height: 84px;
+  display: block;
+}
+
+.tea-icon {
+  background: url("../img/new-vector-icon/tea-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 71px;
+  height: 71px;
+  display: block;
+}
+
+.calendar-icon-2 {
+  background: url("../img/new-vector-icon/calendar-icon-2.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 71px;
+  height: 71px;
+  display: block;
+}
+
+.paragliding-icon {
+  background: url("../img/about/paragliding-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 42px;
+  height: 42px;
+  display: block;
+}
+
+.free-flying-icon {
+  background: url("../img/about/free-flying-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 44px;
+  height: 44px;
+  display: block;
+}
+
+.jump-height-icon {
+  background: url("../img/about/jump-height-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 40px;
+  height: 39px;
+  display: block;
+}
+
+.skydiving-icon {
+  background: url("../img/about/skydiving-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 41px;
+  height: 41px;
+  display: block;
+}
+
+.go-pro-icon-svg {
+  background: url("../img/about/go-pro-icon-svg.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 29px;
+  height: 29px;
+  display: block;
+}
+
+.airplane-icon-svg {
+  background: url("../img/about/airplane-icon-svg.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 41px;
+  height: 41px;
+  display: block;
+}
+
+.call-green-icon {
+  background: url("../img/about/call-green-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.clock-green-icon {
+  background: url("../img/about/clock-green-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.pin-green-icon {
+  background: url("../img/about/pin-green-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.icon-tg {
+  background: url("../img/about/white-icon-tg.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon-vb {
+  background: url("../img/about/white-icon-vb.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn-secondary {
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.green-circle-icon {
+  background: url("../img/aff-img/green-circle-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 31px;
+  height: 31px;
+  display: block;
+}
+
+.triangle-green-icon {
+  background: url("../img/aff-img/triangle-green-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 40px;
+  height: 34px;
+  display: block;
+}
+
+.cross-green-icon {
+  background: url("../img/aff-img/cross-green-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 33px;
+  height: 33px;
+  display: block;
+}
+
+.ground-preparation {
+  background: url("../img/aff-img/ground-preparation.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 48px;
+  height: 44px;
+  display: block;
+}
+
+.backpack-icon {
+  background: url("../img/aff-img/backpack-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 33px;
+  height: 46px;
+  display: block;
+}
+
+.plane-icon-aff {
+  background: url("../img/aff-img/plane-icon-aff.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 65px;
+  height: 65px;
+  display: block;
+}
+
+.wind-tunnel-icon-2 {
+  background: url("../img/aff-img/wind-tunnel-icon-2.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 44px;
+  height: 45px;
+  display: block;
+}
+
+.equipment-icon {
+  background: url("../img/aff-img/equipment-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 31px;
+  height: 49px;
+  display: block;
+}
+
+
+
+/////
+.main_index {
+  &.active {
+    padding-top: 118px;
+  }
+}
+
+.sticky {
+  position: fixed;
+  z-index: 101;
+}
+.stop {
+  position: relative;
+  z-index: 101;
+}
+/////
+
+.icon-currency {
+  font-family: 'Proxima Nova', 'Roboto', 'Times New Roman', sans-serif !important;
+  font-style: normal;
+}
+
+#wrapMap {
+  position: absolute;
+  cursor: help;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.mapTitle {
+  position: absolute;
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 0 5px;
+  display: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 900px;
+    margin: 1.75rem auto;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1224px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .videoBtn_tandem-first-screen {
+    display: none;
+  }
+
+  .main_index {
+    &.active {
+      padding-top: 0;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .display-3 {
+    font-size: 2.5rem;
+  }
+
+  .main-logo {
+    min-width: 120px;
+    width: 120px;
+  }
+
+  .videoBtn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .button-minus, .button-plus {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

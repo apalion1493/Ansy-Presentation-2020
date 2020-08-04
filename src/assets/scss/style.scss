@@ -1,0 +1,21 @@
+//LIBRARY
+@import "library.styles/bootstrap/bootstrap";
+@import "node_modules/slick-carousel/slick/slick.scss";
+@import "node_modules/slick-carousel/slick/slick-theme.scss";
+@import "library.styles/fancyBox/jquery.fancybox.css";
+@import "node_modules/animate.css/animate";
+
+//VARIABLE
+@import "common.blocks/utils/variable";
+
+//TEXT
+@import "common.blocks/utils/text";
+
+//FONTS
+@import "common.blocks/utils/fonts";
+
+
+//main styles
+@import "common.blocks/utils/common";
+
+
