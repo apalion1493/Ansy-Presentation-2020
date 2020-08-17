@@ -1,0 +1,83 @@
+.example-elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 138px;
+  max-width: 1076px;
+}
+
+.example-elements__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.example-elements__buttons {
+  margin-left: -15px;
+  margin-right: -15px;
+
+  i {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.example-elements__inputs {
+  margin-left: -14px;
+  margin-right: -14px;
+
+  i {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+}
+
+.example-elements__checkboxes {
+  margin-left: -8px;
+  margin-right: -8px;
+
+  i {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
+.example-elements__radioButtons {
+  margin-left: -4px;
+  margin-right: -4px;
+
+  i {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .example-elements {
+    flex-direction: column;
+    margin-top: 65px;
+  }
+
+  .example-elements__buttons,
+  .example-elements__inputs {
+    margin-bottom: 24px;
+  }
+
+  .example-elements__checkboxes {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .example-elements__buttons,
+  .example-elements__inputs  {
+    flex-direction: column;
+
+    i {
+      margin-bottom: 16px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.new-screen-example__img {
+  position: relative;
+  min-height: 658px;
+  margin-bottom: 50px;
+}
+
+.new-screen-example__button {
+  margin-right: 135px;
+  margin-left: auto;
+  font-size: rem(18);
+  line-height: rem(21);
+  text-align: center;
+  color: $font-color-5;
+  font-weight: normal;
+  min-width: 256px;
+}

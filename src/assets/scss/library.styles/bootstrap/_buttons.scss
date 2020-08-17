@@ -22,6 +22,7 @@
   @include transition($btn-transition);
 
   border-radius: 25px;
+  height: 49px;
 
   @include hover() {
     color: $body-color;

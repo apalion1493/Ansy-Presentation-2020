@@ -1,4 +1,8 @@
 const gulp = require('gulp');
+const rollup = require('gulp-better-rollup');
+const babel = require('rollup-plugin-babel');
+const resolve = require('rollup-plugin-node-resolve');
+const commonjs = require('rollup-plugin-commonjs');
 const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
@@ -34,18 +38,9 @@ function styles() {
 
 function scripts() {
 	return gulp.src([
-		'node_modules/jquery/dist/jquery.js',
-		'node_modules/bootstrap/dist/js/bootstrap.js',
-		'node_modules/slick-carousel/slick/slick.js',
-		'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
-		'node_modules/gsap/dist/gsap.js',
-		'node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js',
-		'node_modules/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js',
-		'node_modules/scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min.js',
-		'node_modules/wowjs/dist/wow.min.js',
-		'node_modules/stickyfilljs/dist/stickyfill.js',
 		'src/assets/js/main.js'
 	])
+		.pipe(rollup({ plugins: [babel(), resolve(), commonjs()] }, 'umd'))
 		.pipe(concat('libs.min.js'))
 		.pipe(plumber())
 		.pipe(rigger())

@@ -1,0 +1,29 @@
+.section-third {
+  padding-top: 97px;
+  padding-bottom: 114px;
+}
+
+.section-third__subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #8C8C8C;
+}
+
+.section-third__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767.98px) {
+  .section-third {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .section-third__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

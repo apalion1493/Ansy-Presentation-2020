@@ -2,8 +2,12 @@
 @import "library.styles/bootstrap/bootstrap";
 @import "node_modules/slick-carousel/slick/slick.scss";
 @import "node_modules/slick-carousel/slick/slick-theme.scss";
-@import "library.styles/fancyBox/jquery.fancybox.css";
 @import "node_modules/animate.css/animate";
+@import "node_modules/simplelightbox/src/simple-lightbox";
+@import "node_modules/aos/src/sass/aos";
+
+//MIXINS
+@import "common.blocks/utils/mixins";
 
 //VARIABLE
 @import "common.blocks/utils/variable";
@@ -14,6 +18,24 @@
 //FONTS
 @import "common.blocks/utils/fonts";
 
+//CONTAINERS
+@import "common.blocks/containers/section-first";
+@import "common.blocks/containers/section-second";
+@import "common.blocks/containers/section-third";
+@import "common.blocks/containers/section-fourth";
+@import "common.blocks/containers/section-fifth";
+@import "common.blocks/containers/section-sixth";
+@import "common.blocks/containers/section-seventh";
+@import "common.blocks/containers/other-jobs";
+@import "common.blocks/containers/write-ToUs";
+
+//BLOCKS
+@import "common.blocks/block/colors-block";
+@import "common.blocks/block/burger";
+@import "common.blocks/block/font-selection";
+@import "common.blocks/block/example-elements";
+@import "common.blocks/block/new-screen-example";
+@import "common.blocks/block/menu-modal";
 
 //main styles
 @import "common.blocks/utils/common";

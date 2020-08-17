@@ -1,0 +1,56 @@
+.font-selection {
+  display: flex;
+  align-items: flex-end;
+  margin-top: auto;
+}
+
+.font-selection__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 68px;
+
+  p {
+    font-size: rem(14);
+    line-height: rem(16);
+    color: $font-color-2;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+}
+
+.font-selection__size {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    margin-bottom: 16px;
+  }
+}
+
+.font-selection__size-text {
+  font-size: rem(14);
+  line-height: rem(16);
+  color: $font-color-2;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1199.98px) {
+  .font-selection {
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .font-selection {
+    flex-direction: column;
+  }
+
+  .font-selection__title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+  }
+}
