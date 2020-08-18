@@ -14,3 +14,25 @@
   font-weight: normal;
   min-width: 256px;
 }
+
+@media (max-width: 991.98px) {
+  .new-screen-example__img,
+  .mew-design-product {
+    min-height: auto !important;
+
+    img {
+      position: relative !important;
+      min-width: auto;
+    }
+  }
+
+  .mew-design-product img {
+    position: relative !important;
+    min-width: auto;
+    width: 100%;
+  }
+
+  .new-screen-example__button {
+    margin-right: auto;
+  }
+}
