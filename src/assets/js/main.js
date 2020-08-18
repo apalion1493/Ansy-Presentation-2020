@@ -8,18 +8,6 @@ import 'vanilla-tilt/dist/vanilla-tilt.min';
 import floatingCarousel from './libs/floatingcarousel.min';
 import AOS from 'aos/dist/aos';
 
-// import Wow from 'wow';
-//
-// export default {
-//     init() {
-//         // JavaScript to be fired on all pages
-//         const wow = new Wow();
-//         wow.init();
-//     },
-//     finalize() {
-//         // JavaScript to be fired on all pages, after page specific JS is fired
-//     },
-// };
 
 $('[data-toggle="popover"]').popover();
 $('[data-toggle="tooltip"]').tooltip();

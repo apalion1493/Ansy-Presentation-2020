@@ -237,19 +237,124 @@
                 </div>
                 <div class="col-12">
                     <div class="mb-4">
-                        <div class="position-relative section-fifth__image-group">
+                        <div class="position-relative section-fifth__image-group aos-init aos-animate" data-aos="fade-up">
                             <div class="section-fifth__image-png">
                                 <img src="assets/img/catalog-img-png.png" alt="" class="w-100">
                             </div>
                             <svg class="section-fifth__arrow section-fifth__arrow-second" width="174" height="628" viewBox="0 0 176 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                <style type="text/css">
+                                    svg {
+                                        --animation-delay: 0.2;
+                                        --animation-duration: 4;
+                                    }
+
+                                    .aos-animate .section-fifth__arrow path {
+                                        opacity: 1;
+                                        stroke: rgba(255, 255, 255, 1);
+                                        stroke-width: 1;
+                                        stroke-dasharray: 1000;
+                                        stroke-dashoffset: 1000;
+                                        animation-name: draw-bg;
+                                        animation-duration: 2s;
+                                        animation-fill-mode: forwards;
+                                    }
+
+                                    @keyframes draw-bg {
+                                        0% {
+                                            opacity: 0;
+                                            fill: rgba(0, 0, 0, 0);
+                                            stroke: rgba(119, 119, 119, 1);
+                                        }
+                                        66% {
+                                            opacity: 1;
+                                            stroke-dashoffset: 1000;
+                                            fill: rgba(0, 0, 0, 0);
+                                            stroke: rgba(119, 119, 119, 0);
+                                        }
+                                        100% {
+                                            opacity: 1;
+                                            stroke: rgba(190, 162, 103, 1);
+                                            /*stroke-dasharray: 4;*/
+                                            stroke-dashoffset: 4;
+                                        }
+                                    }
+
+
+                                </style>
+
                                 <circle cx="146.5" cy="11.5" r="11.5" fill="#BEA267"/>
                                 <path d="M149 12H151C164.255 12 175 22.7452 175 36V569.824C175 583.078 164.255 593.824 151 593.824H25C11.7452 593.824 1 604.569 1 617.824V640" stroke="#BEA267" stroke-dasharray="4 4"/>
                             </svg>
                             <svg class="section-fifth__arrow section-fifth__arrow-first" width="132" height="628" viewBox="0 0 134 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<!--                                <style type="text/css">-->
+<!--                                    svg {-->
+<!--                                        &#45;&#45;animation-delay: 0.2;-->
+<!--                                        &#45;&#45;animation-duration: 4;-->
+<!--                                    }-->
+
+<!--                                    @keyframes draw-bg {-->
+<!--                                        0% {-->
+<!--                                            opacity: 0;-->
+<!--                                            fill: rgba(0, 0, 0, 0);-->
+<!--                                            stroke: rgba(119, 119, 119, 1);-->
+<!--                                        }-->
+<!--                                        66% {-->
+<!--                                            opacity: 1;-->
+<!--                                            stroke-dashoffset: 0;-->
+<!--                                            fill: rgba(0, 0, 0, 0);-->
+<!--                                            stroke: rgba(119, 119, 119, 1);-->
+<!--                                        }-->
+<!--                                        100% {-->
+<!--                                            opacity: 1;-->
+<!--                                            stroke: rgba(119, 119, 119, 0);-->
+<!--                                            stroke-dashoffset: 0;-->
+<!--                                        }-->
+<!--                                    }-->
+<!--                                </style>-->
+
                                 <circle cx="28.5" cy="11.5" r="11.5" fill="#BEA267"/>
                                 <path d="M27 12H25C11.7452 12 1 22.7452 1 36V569.824C1 583.078 11.7452 593.824 25 593.824H109C122.255 593.824 133 604.569 133 617.824V640" stroke="#BEA267" stroke-dasharray="4 4"/>
                             </svg>
                             <svg class="section-fifth__arrow section-fifth__arrow-third" width="127" height="153" viewBox="0 0 127 153" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+
+<!--                                <style type="text/css">-->
+<!--                                    svg {-->
+<!--                                        &#45;&#45;animation-delay: 0.2;-->
+<!--                                        &#45;&#45;animation-duration: 4;-->
+<!--                                    }-->
+
+<!--                                    @keyframes opacityAnimation {-->
+<!--                                        from {-->
+<!--                                            opacity: 0;-->
+<!--                                        }-->
+<!--                                        to {-->
+<!--                                            opacity: 1;-->
+<!--                                        }-->
+<!--                                    }-->
+
+<!--                                    @keyframes draw-bg {-->
+<!--                                        0% {-->
+<!--                                            opacity: 0;-->
+<!--                                            fill: rgba(0, 0, 0, 0);-->
+<!--                                            stroke: rgba(119, 119, 119, 1);-->
+<!--                                        }-->
+<!--                                        66% {-->
+<!--                                            opacity: 1;-->
+<!--                                            stroke-dashoffset: 0;-->
+<!--                                            fill: rgba(0, 0, 0, 0);-->
+<!--                                            stroke: rgba(119, 119, 119, 1);-->
+<!--                                        }-->
+<!--                                        100% {-->
+<!--                                            opacity: 1;-->
+<!--                                            stroke: rgba(119, 119, 119, 0);-->
+<!--                                            stroke-dashoffset: 0;-->
+<!--                                        }-->
+<!--                                    }-->
+<!--                                </style>-->
+
                                 <circle cx="115.5" cy="11.5" r="11.5" fill="#BEA267"/>
                                 <path d="M113 13V85C113 98.2548 102.255 109 89 109H25C11.7452 109 1 119.745 1 133V153" stroke="#BEA267" stroke-dasharray="4 4"/>
                             </svg>
